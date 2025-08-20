@@ -16,14 +16,14 @@ from pathlib import Path
 from langchain_core.documents import Document
 from langchain_core.retrievers import BaseRetriever
 
-with  open("C:\\Users\\aksha\\Downloads\\coding.txt", "r", encoding="utf-8") as f:
+with  open("C:\\Location_of_coding_prompt", "r", encoding="utf-8") as f:
     coding_prompt = f.read()
 
-with  open("C:\\Users\\aksha\\Downloads\\casual.txt", "r", encoding="utf-8") as f:
+with  open("C:\\Location_of_casual_prompt", "r", encoding="utf-8") as f:
     casual_prompt = f.read()
 
 serpapi_tool = SerpAPIWrapper(
-    serpapi_api_key="4fc549ec74388e04d22853e6a69abdd405d682d78b1a9d2728b129bf92959dac"
+    serpapi_api_key="SerpAPIKey"
 )
 
 
@@ -47,7 +47,7 @@ current_time = now.strftime("%Y-%m-%d %H:%M:%S")
 
 llm = ChatGroq(
     model_name="Llama3-70b-8192",
-    groq_api_key="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",
+    groq_api_key="GROQ_KEY",
     temperature=0.1,  
     max_tokens=6000,  
 ) 
@@ -147,7 +147,7 @@ def memory(state: GraphState): # this node is used to update the memory file wit
               "error_report" : state.get("error_report", ""),
               "code" : state.get("code", "")}
     memory_content = json.dumps(memory_log, indent=4)
-    with open("C:\\Users\\aksha\\V3\\memory_lex.txt", "a") as f:
+    with open("memory_lex.txt", "a") as f:
          f.write( json.dumps(f"{current_time} {memory_log} ") + "\n")
     
     try :
@@ -233,4 +233,5 @@ if __name__ == "__main__":
     final_result = app.invoke({"task" : task})
 
     print("\n---FINAL RESULT---")
+
     print(final_result.get('result', 'Workflow finished.'))
