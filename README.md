@@ -6,6 +6,11 @@ Lex is a multi-agent, autonomous desktop assistant built with a sophisticated ag
 
 ## 🚀 Live Demo
 
+
+Workings : 
+
+![Image](https://github.com/user-attachments/assets/52284acc-2417-4229-ad6c-fed6959d769f)
+
 ## Step - 1 : Load app.py
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fcf66587-ce42-450c-8a9d-6815fd447e01" />
