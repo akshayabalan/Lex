@@ -7,13 +7,21 @@ Lex is a multi-agent, autonomous desktop assistant built with a sophisticated ag
 ## 🚀 Live Demo
 
 
-Workings : 
+How it Works : 
 
 ![Image](https://github.com/user-attachments/assets/52284acc-2417-4229-ad6c-fed6959d769f)
+
+
 
 ## Step - 1 : Load app.py
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fcf66587-ce42-450c-8a9d-6815fd447e01" />
+
+## Step - 2 : Load gui.py
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6ecc65f0-c936-4e51-9fab-86e37800929d" />
+
+## Step 3 : Activate Hot-Keys ['l' , 'e' , 'x'] to Activate the Multi Agent.
 
 
 
@@ -28,7 +36,7 @@ Workings :
 Lex isn't just a chatbot; it's a powerful agent with a unique set of capabilities:
 
 *   **🧠 Multi-Agent Architecture:** A central "router" agent analyzes user prompts and delegates tasks to specialized agents—a conversational agent for Q&A and a coding agent for autonomous task execution on the host system.
-*   **🛠️ Self-Correction Loop:** Lex can debug itself! A "critic" agent analyzes the code execution output for errors. If an error is found, it provides iterative feedback to the coding agent, allowing it to fix its own code and re-attempt the task.
+*   **🛠️ Self-Correction Loop:** Lex can debug itself! A "Child" agent analyzes the code execution output for errors. If an error is found, it provides iterative feedback to the coding agent, allowing it to fix its own code and re-attempt the task.
 *   **📚 RAG-Based Memory:** Equipped with a FAISS vector store, Lex has long-term memory. It can recall past interactions, learn user preferences, and provide contextually aware responses, becoming more personalized over time.
 *   **🖥️ Full-Stack Desktop Application:** Lex is a complete application with a Flask API backend serving the agent's logic and a responsive, non-blocking PyQt6 GUI for a polished user experience.
 *   **⚡ Hotkey Activated:** The GUI can be summoned and dismissed instantly with a global hotkey (`l` `e` `x`), making it a seamless part of any workflow.
