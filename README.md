@@ -6,9 +6,15 @@ Lex is a multi-agent, autonomous desktop assistant built with a sophisticated ag
 
 ## 🚀 Live Demo
 
-![Lex Demo GIF](URL_TO_YOUR_DEMO_GIF_HERE)
+## Step - 1 : Load app.py
 
-*(**Instructions:** You need to record a GIF of your app working and upload it to your GitHub repo. Then, replace `URL_TO_YOUR_DEMO_GIF_HERE` with the link to that GIF.)*
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fcf66587-ce42-450c-8a9d-6815fd447e01" />
+
+
+
+
+
+
 
 ---
 
@@ -78,7 +84,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repo**
     ```sh
-    git clone https://github.com/your_username/lex-agent.git
+    git clone https://github.com/akshayabalan/lex.git
     cd lex-agent
     ```
 2.  **Install Python packages**
@@ -108,6 +114,6 @@ To get a local copy up and running, follow these simple steps.
 
 ## 📞 Contact
 
-Akshaya Balan - [your.email@gmail.com](mailto:your.email@gmail.com)
+Akshaya Balan - [akshayabalan43@gmail.com]
 
-Project Link: [https://github.com/your_username/lex-agent](https://github.com/your_username/lex-agent)
+Project Link: [https://github.com/akshayabalan/lex]
